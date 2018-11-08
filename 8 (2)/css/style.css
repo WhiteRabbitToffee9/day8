@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: .1rem;
+  list-style: none;
+}
+
+html {
+  font-size: calc(380/100*10vw);
+}
+
+body, html, .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  padding: .1rem;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.top .scarch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .scarch input {
+  width: 70%;
+  font-size: .1rem;
+  border: 0;
+  outline: 0;
+  height: .2rem;
+}
+
+.top .recommend ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: .1rem;
+}
+
+.default {
+  padding: 0 .1rem .1rem .1rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.default span {
+  color: red;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.choiceness img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}
+
+.footer img {
+  width: .3rem;
+}
+
+.footer div {
+  align-items: center;
+}
